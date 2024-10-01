@@ -1,7 +1,6 @@
 package com.campusdual.classroom;
 
 public class Exercise16 {
-
 	public static void main(String[] args) {
 		Plane plane = new Plane("Boeing");
 		Tractor tractor = new Tractor(3500);
@@ -12,6 +11,8 @@ public class Exercise16 {
 		plane.fly();
 		tractor.forward();
 
+		plane.maintenance();
+		tractor.stop();
 	}
-
 }
+
